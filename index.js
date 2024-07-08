@@ -2,7 +2,7 @@ const sessionName = "icon";
 const donet = "https://t.me/cybertechug";
 const owner = ["256758625106"]; // Put your number here ex: ["256xxxxxxxxx"]
 const {
-  default: sansekaiConnect,
+  default: makeWASocket,
   useMultiFileAuthState,
   DisconnectReason,
   fetchLatestBaileysVersion,
