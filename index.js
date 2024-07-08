@@ -149,7 +149,7 @@ async function startHisoka() {
     )
   );
 
-  const client = sansekaiConnect({
+  const client = makeWASocket({
     logger: pino({ level: "silent" }),
     printQRInTerminal: true,
     browser: ["Creator: redjoker - BOT", "Safari", "5.1.7"],
